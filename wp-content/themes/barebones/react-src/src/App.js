@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import AsideMenu from "./AsideMenu";
-import Header from "./Header";
+import Homepage from "./Homepage";
 
 function App() {
     return (
-        <div>
-            <Header />
+        <div className="Menu_Homepage">
             <AsideMenu />
+            <Homepage />
         </div>
     );
 }
