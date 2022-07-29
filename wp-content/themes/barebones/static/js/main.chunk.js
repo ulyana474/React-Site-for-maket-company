@@ -33,26 +33,29 @@ var _jsxFileName = "C:\\OpenServer\\domains\\site\\wp-content\\themes\\barebones
 
 
 function App() {
+  const [title, setTitle] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])("Homepage");
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Menu_Homepage",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 11,
       columnNumber: 9
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AsideMenu__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    setTitle: setTitle,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 12,
       columnNumber: 13
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Homepage__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: title,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 13,
       columnNumber: 13
     }
   }));
@@ -79,27 +82,19 @@ var _jsxFileName = "C:\\OpenServer\\domains\\site\\wp-content\\themes\\barebones
 
 
 
-function AsideMenu() {
+function AsideMenu(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "App-aside-menu",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 6,
       columnNumber: 12
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "App-menu-item",
     id: "Item1",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 17
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "App-menu-item",
-    id: "Item2",
+    onClick: () => props.setTitle("Homepage"),
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -108,7 +103,8 @@ function AsideMenu() {
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "App-menu-item",
-    id: "Item3",
+    id: "Item2",
+    onClick: () => props.setTitle("page2"),
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -117,11 +113,22 @@ function AsideMenu() {
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "App-menu-item",
-    id: "Item4",
+    id: "Item3",
+    onClick: () => props.setTitle("page3"),
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "App-menu-item",
+    id: "Item4",
+    onClick: () => props.setTitle("page4"),
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
       columnNumber: 17
     }
   }));
@@ -207,20 +214,20 @@ var _jsxFileName = "C:\\OpenServer\\domains\\site\\wp-content\\themes\\barebones
 
 
 
-function Homepage() {
+function Homepage(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Header_page",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 7,
       columnNumber: 12
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 17
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -228,10 +235,10 @@ function Homepage() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 9,
       columnNumber: 17
     }
-  }, "Homepage"));
+  }, props.title));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Homepage);

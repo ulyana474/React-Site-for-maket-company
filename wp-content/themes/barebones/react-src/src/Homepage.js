@@ -1,11 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import Header from "./Header";
 import "./App.css";
 
-function Homepage() {
+function Homepage(props) {
+
     return <div className="Header_page">
                 <Header />
-                <div className="Page">Homepage</div>
+                <div className="Page">{props.title}</div>
             </div>
 }
 
