@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+.About_us_bold {
+  font-family: 'Inter', sans-serif;
+  font-size: 15pt;
+  color: #484a20;
+}
+
 .App-aside-menu {
   display: flex;
   flex-direction: column;
@@ -39,6 +45,14 @@ code {
   color: #6b4423;
   text-align: center;
   margin-bottom: 5%;
+}
+
+.Carousel {
+  width: 486px;
+  height: 410px;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 10%;
 }
 
 .Catalog_block {
@@ -135,21 +149,6 @@ code {
   flex-direction: row;
 }
 
-.News_block {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 5%;
-}
-
-.News_item {
-  width: 45vw;
-  height: 55vh;
-  background-color: aliceblue;
-  margin-left: 5%;
-  margin-bottom: 5%;
-}
-
 .Page {
   display: flex;
   flex-direction: column;
@@ -157,6 +156,11 @@ code {
   width: auto;
   background-color:#E7E8E3;
   height: 100%;
+}
+
+.Slider_About {
+  display: flex;
+  flex-direction: row;
 }
 
 .Tel {

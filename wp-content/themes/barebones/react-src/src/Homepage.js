@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import Slider from "./Slider/Slider";
 import "./App.css";
 
 function Homepage(props) {
@@ -7,9 +8,12 @@ function Homepage(props) {
     return <div className="Header_page">
                 <Header />
                 <div className="Page">{/* {props.title} */}
-                    <div className="News_block">
-                        <div className="News_item"></div>
-                    </div>  
+                    <div className="Slider_About">
+                        <Slider />
+                        <div className="About_us">
+                            <b className="About_us_bold">О нас</b>
+                        </div>
+                    </div>
                     <div className="Catalog">Catalog</div>
                     <div className="Catalog_block">
                         <div className="Catalog_item item1"></div>    

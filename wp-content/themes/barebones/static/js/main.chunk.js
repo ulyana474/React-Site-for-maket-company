@@ -249,9 +249,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./src/Header.js");
-/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
-/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Slider_Slider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Slider/Slider */ "./src/Slider/Slider.js");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "C:\\OpenServer\\domains\\site\\wp-content\\themes\\barebones\\react-src\\src\\Homepage.js";
+
 
 
 
@@ -262,14 +264,14 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 12
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 9,
       columnNumber: 17
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -277,31 +279,46 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 10,
       columnNumber: 17
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "News_block",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 21
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "News_item",
+    className: "Slider_About",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
+      columnNumber: 21
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Slider_Slider__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
       columnNumber: 25
     }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Catalog",
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "About_us",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
+      columnNumber: 25
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    className: "About_us_bold",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 29
+    }
+  }, "\u041E \u043D\u0430\u0441"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Catalog",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
       columnNumber: 21
     }
   }, "Catalog"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -309,7 +326,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 18,
       columnNumber: 21
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -317,7 +334,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 19,
       columnNumber: 25
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -325,7 +342,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 20,
       columnNumber: 25
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -333,7 +350,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 21,
       columnNumber: 25
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -341,7 +358,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 22,
       columnNumber: 25
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -349,7 +366,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 23,
       columnNumber: 25
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -357,13 +374,418 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 24,
       columnNumber: 25
     }
   }))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Homepage);
+
+/***/ }),
+
+/***/ "./src/Slider/Slider.js":
+/*!******************************!*\
+  !*** ./src/Slider/Slider.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_alice_carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-alice-carousel */ "./node_modules/react-alice-carousel/lib/react-alice-carousel.js");
+/* harmony import */ var react_alice_carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_alice_carousel__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_alice_carousel_lib_alice_carousel_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-alice-carousel/lib/alice-carousel.css */ "./node_modules/react-alice-carousel/lib/alice-carousel.css");
+/* harmony import */ var react_alice_carousel_lib_alice_carousel_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_alice_carousel_lib_alice_carousel_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _icons_image1_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./icons/image1.png */ "./src/Slider/icons/image1.png");
+/* harmony import */ var _icons_image1_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_icons_image1_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _icons_image2_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./icons/image2.png */ "./src/Slider/icons/image2.png");
+/* harmony import */ var _icons_image2_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_icons_image2_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _icons_image3_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icons/image3.png */ "./src/Slider/icons/image3.png");
+/* harmony import */ var _icons_image3_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_icons_image3_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _icons_image4_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icons/image4.png */ "./src/Slider/icons/image4.png");
+/* harmony import */ var _icons_image4_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_icons_image4_png__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _icons_image5_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./icons/image5.png */ "./src/Slider/icons/image5.png");
+/* harmony import */ var _icons_image5_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_icons_image5_png__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _icons_image6_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./icons/image6.png */ "./src/Slider/icons/image6.png");
+/* harmony import */ var _icons_image6_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_icons_image6_png__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _icons_image7_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./icons/image7.png */ "./src/Slider/icons/image7.png");
+/* harmony import */ var _icons_image7_png__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_icons_image7_png__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _icons_image8_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icons/image8.png */ "./src/Slider/icons/image8.png");
+/* harmony import */ var _icons_image8_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_icons_image8_png__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _icons_image9_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./icons/image9.png */ "./src/Slider/icons/image9.png");
+/* harmony import */ var _icons_image9_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_icons_image9_png__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _icons_image10_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./icons/image10.png */ "./src/Slider/icons/image10.png");
+/* harmony import */ var _icons_image10_png__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_icons_image10_png__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _icons_image11_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./icons/image11.png */ "./src/Slider/icons/image11.png");
+/* harmony import */ var _icons_image11_png__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_icons_image11_png__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _icons_image12_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./icons/image12.png */ "./src/Slider/icons/image12.png");
+/* harmony import */ var _icons_image12_png__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_icons_image12_png__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _icons_image13_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./icons/image13.png */ "./src/Slider/icons/image13.png");
+/* harmony import */ var _icons_image13_png__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_icons_image13_png__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _icons_image14_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./icons/image14.png */ "./src/Slider/icons/image14.png");
+/* harmony import */ var _icons_image14_png__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_icons_image14_png__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _icons_image15_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./icons/image15.png */ "./src/Slider/icons/image15.png");
+/* harmony import */ var _icons_image15_png__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_icons_image15_png__WEBPACK_IMPORTED_MODULE_17__);
+var _jsxFileName = "C:\\OpenServer\\domains\\site\\wp-content\\themes\\barebones\\react-src\\src\\Slider\\Slider.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function Slider() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Carousel",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_alice_carousel__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    autoPlay: true,
+    autoPlayInterval: "5000",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image1_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image2_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image3_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image4_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image5_png__WEBPACK_IMPORTED_MODULE_7___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image6_png__WEBPACK_IMPORTED_MODULE_8___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image7_png__WEBPACK_IMPORTED_MODULE_9___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image8_png__WEBPACK_IMPORTED_MODULE_10___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image9_png__WEBPACK_IMPORTED_MODULE_11___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image10_png__WEBPACK_IMPORTED_MODULE_12___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image11_png__WEBPACK_IMPORTED_MODULE_13___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image12_png__WEBPACK_IMPORTED_MODULE_14___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image13_png__WEBPACK_IMPORTED_MODULE_15___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image14_png__WEBPACK_IMPORTED_MODULE_16___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _icons_image15_png__WEBPACK_IMPORTED_MODULE_17___default.a,
+    className: "Slider_image",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 17
+    }
+  })));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Slider);
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image1.png":
+/*!*************************************!*\
+  !*** ./src/Slider/icons/image1.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,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"
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image10.png":
+/*!**************************************!*\
+  !*** ./src/Slider/icons/image10.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image10.bf0ddcfc.png";
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image11.png":
+/*!**************************************!*\
+  !*** ./src/Slider/icons/image11.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image11.c804303d.png";
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image12.png":
+/*!**************************************!*\
+  !*** ./src/Slider/icons/image12.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image12.ddd3931e.png";
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image13.png":
+/*!**************************************!*\
+  !*** ./src/Slider/icons/image13.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image13.8925fef5.png";
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image14.png":
+/*!**************************************!*\
+  !*** ./src/Slider/icons/image14.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image14.178eaafe.png";
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image15.png":
+/*!**************************************!*\
+  !*** ./src/Slider/icons/image15.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image15.06b667f8.png";
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image2.png":
+/*!*************************************!*\
+  !*** ./src/Slider/icons/image2.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image2.3eac6700.png";
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image3.png":
+/*!*************************************!*\
+  !*** ./src/Slider/icons/image3.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image3.0dedffa3.png";
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image4.png":
+/*!*************************************!*\
+  !*** ./src/Slider/icons/image4.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image4.ee09b1d6.png";
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image5.png":
+/*!*************************************!*\
+  !*** ./src/Slider/icons/image5.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image5.54b52a4b.png";
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image6.png":
+/*!*************************************!*\
+  !*** ./src/Slider/icons/image6.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image6.260da65c.png";
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image7.png":
+/*!*************************************!*\
+  !*** ./src/Slider/icons/image7.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image7.03697acb.png";
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image8.png":
+/*!*************************************!*\
+  !*** ./src/Slider/icons/image8.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image8.8a6a74c3.png";
+
+/***/ }),
+
+/***/ "./src/Slider/icons/image9.png":
+/*!*************************************!*\
+  !*** ./src/Slider/icons/image9.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/image9.d6476771.png";
 
 /***/ }),
 
