@@ -1,9 +1,9 @@
 {
   "files": {
-    "static/css/1.chunk.css": "/wp-content/themes/barebones/static/css/1.chunk.css",
-    "static/js/1.chunk.js": "/wp-content/themes/barebones/static/js/1.chunk.js",
-    "static/css/1.chunk.css.map": "/wp-content/themes/barebones/static/css/1.chunk.css.map",
-    "static/js/1.chunk.js.map": "/wp-content/themes/barebones/static/js/1.chunk.js.map",
+    "static/css/0.chunk.css": "/wp-content/themes/barebones/static/css/0.chunk.css",
+    "static/js/0.chunk.js": "/wp-content/themes/barebones/static/js/0.chunk.js",
+    "static/css/0.chunk.css.map": "/wp-content/themes/barebones/static/css/0.chunk.css.map",
+    "static/js/0.chunk.js.map": "/wp-content/themes/barebones/static/js/0.chunk.js.map",
     "main.css": "/wp-content/themes/barebones/static/css/main.chunk.css",
     "main.js": "/wp-content/themes/barebones/static/js/main.chunk.js",
     "main.css.map": "/wp-content/themes/barebones/static/css/main.chunk.css.map",
@@ -11,6 +11,12 @@
     "runtime-main.js": "/wp-content/themes/barebones/static/js/bundle.js",
     "runtime-main.js.map": "/wp-content/themes/barebones/static/js/bundle.js.map",
     "index.php": "/wp-content/themes/barebones/index.php",
+    "static/media/Architecture.png": "/wp-content/themes/barebones/static/media/Architecture.dff59c10.png",
+    "static/media/Army.png": "/wp-content/themes/barebones/static/media/Army.f53653f8.png",
+    "static/media/Auto.png": "/wp-content/themes/barebones/static/media/Auto.8276e189.png",
+    "static/media/Avia.png": "/wp-content/themes/barebones/static/media/Avia.ee0a6a81.png",
+    "static/media/Ships.png": "/wp-content/themes/barebones/static/media/Ships.72d2d5e8.png",
+    "static/media/Transport.png": "/wp-content/themes/barebones/static/media/Transport.5160b0b4.png",
     "static/media/image10.png": "/wp-content/themes/barebones/static/media/image10.bf0ddcfc.png",
     "static/media/image11.png": "/wp-content/themes/barebones/static/media/image11.c804303d.png",
     "static/media/image12.png": "/wp-content/themes/barebones/static/media/image12.ddd3931e.png",
@@ -28,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/bundle.js",
-    "static/css/1.chunk.css",
-    "static/js/1.chunk.js",
+    "static/css/0.chunk.css",
+    "static/js/0.chunk.js",
     "static/css/main.chunk.css",
     "static/js/main.chunk.js"
   ]

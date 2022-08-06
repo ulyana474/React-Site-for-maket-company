@@ -2,6 +2,12 @@ import React from "react";
 import Header from "./Header";
 import Slider from "./Slider/Slider";
 import "./App.css";
+import Architecture from "./Gallery/Architecture.png"
+import Ships from "./Gallery/Ships.png"
+import Army from "./Gallery/Army.png"
+import Avia from "./Gallery/Avia.png"
+import Auto from "./Gallery/Auto.png"
+import Transport from "./Gallery/Transport.png"
 
 function Homepage(props) {
 
@@ -12,16 +18,18 @@ function Homepage(props) {
                         <Slider />
                         <div className="About_us">
                             <b className="About_us_bold">О нас</b>
+                            <p><b className = "About_us_bold">Техномакет</b> - макетная мастерская, предлагает высококачественные масштабные модели и 3d копии техники, макеты для выставок и презентаций.<br/><p>Уже более 10 лет мы выполняем индивидуальные заказы наших Клиентов, что сделало нас доверенными партнерами для многих европейских заказчиков.</p><p>Мы работаем для:</p><ul><li><span>музеев,</span></li><li><span>выставок и презентаций,</span></li><li><span>производителей сложной техники,</span></li><li><span>образовательных центров.</span></li></ul></p>
                         </div>
                     </div>
-                    <div className="Catalog">Catalog</div>
+                    <div className="We_do"><p className="We_do_text">Мы делаем: <a className="We_do_underline">архитектурные макеты, </a> <a className="We_do_underline">масштабные макеты и модели техники (включая действующие макеты),</a> <a className="We_do_underline">макеты кораблей,</a> <a className="We_do_underline"> диорамы,</a> <a className="We_do_underline">реплики оружия</a> и многое другое...</p><p className="We_do_text">Также мы можем изготовить: <a className="We_do_underline">презентационные подставки и колпаки,</a> <a className="We_do_underline">транспортные короба и кофры.</a></p></div>
+                    <div className="Catalog">Галерея</div>
                     <div className="Catalog_block">
-                        <div className="Catalog_item item1"></div>    
-                        <div className="Catalog_item item2"></div>  
-                        <div className="Catalog_item item3"></div>  
-                        <div className="Catalog_item item4"></div>  
-                        <div className="Catalog_item item5"></div>  
-                        <div className="Catalog_item item6"></div>
+                        <img src = {Ships}  className="Catalog_item item1"/>    
+                        <img src = {Army} className="Catalog_item item2"/> 
+                        <img src = {Architecture} className="Catalog_item item3"/>  
+                        <img src = {Avia} className="Catalog_item item4"/> 
+                        <img src = {Transport} className="Catalog_item item5"/>
+                        <img src = {Auto} className="Catalog_item item6"/>
                     </div>              
                 </div>
             </div>

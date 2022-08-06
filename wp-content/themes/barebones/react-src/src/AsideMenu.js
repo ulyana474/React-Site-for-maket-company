@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
+import HomeIcon from '@mui/icons-material/Home';
+import ImageIcon from '@mui/icons-material/Image';
+import CallIcon from '@mui/icons-material/Call';
 
 function AsideMenu(props) {
 
     return <div className="App-aside-menu">
-                <div className="App-menu-item" id = "Item1" onClick={() => props.setTitle("Homepage")}></div>
-                <div className="App-menu-item" id = "Item2" onClick={() => props.setTitle("page2")}></div>
-                <div className="App-menu-item" id = "Item3" onClick={() => props.setTitle("page3")}></div>
-                <div className="App-menu-item" id = "Item4" onClick={() => props.setTitle("page4")}></div>
+                <HomeIcon sx = {{size:'large'}} className="App-menu-item" id = "Item1" onClick={() => props.setTitle("Homepage")}></HomeIcon>
+                <ImageIcon className="App-menu-item" id = "Item2" onClick={() => props.setTitle("page2")}></ImageIcon >
+                <CallIcon className="App-menu-item" id = "Item3" onClick={() => props.setTitle("page3")}></CallIcon>
             </div>
 }
 

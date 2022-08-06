@@ -39,7 +39,7 @@
         Learn how to configure a non-root public URL by running `npm run wpbuild`.
     -->
     <title>React WordPress Theme</title>
-<link href="/wp-content/themes/barebones/static/css/1.chunk.css?b0f7655eab4190c35462" rel="stylesheet"><link href="/wp-content/themes/barebones/static/css/main.chunk.css?b0f7655eab4190c35462" rel="stylesheet"></head>
+<link href="/wp-content/themes/barebones/static/css/0.chunk.css?e6bd5032dad8bf65f45f" rel="stylesheet"><link href="/wp-content/themes/barebones/static/css/main.chunk.css?e6bd5032dad8bf65f45f" rel="stylesheet"></head>
     <body>
     <noscript>
         You need to enable JavaScript to run this app.
@@ -55,5 +55,5 @@
         To begin the development, run `npm run wpstart` or `yarn wpstart`.
         To create a production bundle, use `npm run wpbuild` or `yarn wpbuild`.
     -->
-    <script src="/wp-content/themes/barebones/static/js/bundle.js?b0f7655eab4190c35462"></script><script src="/wp-content/themes/barebones/static/js/1.chunk.js?b0f7655eab4190c35462"></script><script src="/wp-content/themes/barebones/static/js/main.chunk.js?b0f7655eab4190c35462"></script></body>
+    <script src="/wp-content/themes/barebones/static/js/bundle.js?e6bd5032dad8bf65f45f"></script><script src="/wp-content/themes/barebones/static/js/0.chunk.js?e6bd5032dad8bf65f45f"></script><script src="/wp-content/themes/barebones/static/js/main.chunk.js?e6bd5032dad8bf65f45f"></script></body>
 </html>

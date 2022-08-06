@@ -1,3 +1,25 @@
+a:hover {
+  color: #484a20;
+}
+
+a:visited {
+  color: #484a20;
+}
+
+a:active {
+  color: #E7E8E3;
+}
+
+.About_us {
+  font-family: 'Inter', sans-serif;
+  width: 40vw;
+  height:auto;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 15pt;
+  color: #2E3034;
+}
+
 .About_us_bold {
   font-family: 'Inter', sans-serif;
   font-size: 15pt;
@@ -14,21 +36,15 @@
 }
 
 .App-menu-item {
-  align-items: center;
-  height: 70px;
-  width: 70px;
-  background-color: aliceblue;
-  margin-bottom: 25px;
-  margin-left: 15%;
-  display: flex;
-  flex-shrink: inherit;
+  color: #E7E8E3;
 }
 
 .Catalog {
+  font-family: 'Inter', sans-serif;
   display: flex;
   justify-content: center;
   font-size: 2vw;
-  color: #6b4423;
+  color: #484a20;
   text-align: center;
   margin-bottom: 5%;
 }
@@ -77,15 +93,41 @@
 
 #Item1 {
   margin-top: 10%;
+  width: 10vw;
+  height: 10vh;
+  margin-bottom: 15%;
+}
+
+#Item1:hover {
+  color: #2E3034;
+}
+
+#Item2 {
+  width: 10vw;
+  height: 10vh;
+  margin-bottom: 15%;
+}
+
+#Item2:hover {
+  color: #2E3034;
+}
+
+#Item3 {
+  width: 10vw;
+  height: 10vh;
+}
+
+#Item3:hover {
+  color: #2E3034;
 }
 
 .Header {
   display: flex;
   flex-direction: row;
   float: right;
-  width: 90vw;
+  width: auto;
   height: 50vh;
-  background-color:  #A2B6B5;
+  background-color: #A2B6B5;
 }
 
 .Header-text-box {
@@ -152,3 +194,32 @@
 .Tel {
   color: #484a20;
 }
+
+ul > li {
+  color: #484a20;
+}
+
+ul > li > span {
+  color: #2E3034;
+}
+
+.We_do {
+  font-family: 'Inter', sans-serif;
+  font-size: 15pt;
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  background-color: #A2B6B5;
+  border-radius: 1em;
+  margin-bottom: 5%;
+}
+
+.We_do_text {
+  padding: 1% 1% 1% 3%;
+  color: #2E3034;
+}
+
+.We_do_underline:hover {
+  text-decoration: underline;
+}
+
