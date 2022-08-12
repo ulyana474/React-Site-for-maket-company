@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 import Header from "./Header";
 import Slider from "./Slider/Slider";
 import "./App.css";
@@ -30,8 +31,10 @@ function Homepage(props) {
                         <img src = {Avia} className="Catalog_item item4"/> 
                         <img src = {Transport} className="Catalog_item item5"/>
                         <img src = {Auto} className="Catalog_item item6"/>
-                    </div>              
+                    </div> 
+                    <button type="button" className="Gallery_button">Перейти в галерею</button>              
                 </div>
+                <Footer />
             </div>
 }
 
