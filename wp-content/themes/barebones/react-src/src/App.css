@@ -180,6 +180,28 @@ a:active {
   color: #2E3034;
 }
 
+.Img_with_text {
+  width: 20vw;
+  height: 30vh;
+}
+
+.Img_descr {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #2E3034;
+  font-size: 15pt;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(0%, -500%);
+  position: relative;
+}
+
+.Img_with_text:hover .Img_descr {
+  visibility: visible;
+  opacity: 1;
+}
+
 .Header {
   display: flex;
   flex-direction: row;
