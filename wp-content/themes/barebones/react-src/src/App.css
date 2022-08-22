@@ -30,13 +30,22 @@ a:active {
   display: flex;
   flex-direction: column;
   background-color: #6F7239;
+  height: 100%;
   height: auto;
   width: 10vw;
-  z-index: 100;
 }
 
 .App-menu-item {
   color: #E7E8E3;
+}
+
+.Button_text {
+  display: flex;
+  flex-direction: column;
+}
+
+#Button_submit {
+  width: 10vw;
 }
 
 .Catalog {
@@ -46,7 +55,7 @@ a:active {
   font-size: 2vw;
   color: #484a20;
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 .Carousel {
@@ -55,6 +64,7 @@ a:active {
   margin-top: 5%;
   margin-left: 5%;
   margin-bottom: 10%;
+  border: 0.25em solid #747833;
 }
 
 .Catalog_block {
@@ -69,6 +79,18 @@ a:active {
   position: relative;
 }
 
+.Catalog_block2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10% 10%;
+  grid-row-gap: 10%;
+  grid-template-areas: 'item7 item8 item9';
+  background-color: #E7E8E3;
+  margin-left: 11%;
+  position: relative;
+  margin-top: 5.5%;
+}
+
 .Catalog_item {
   opacity: 1;
   display: block;
@@ -76,17 +98,48 @@ a:active {
   transition: .5s ease;
   backface-visibility: hidden;
   width: 20vw;
+  border: 0.25em solid #747833;
 }
 
 .Catalog_block:hover .Catalog_item:hover {
   opacity: 0.3;
+}
 
+.Catalog_block2:hover .Catalog_item:hover {
+  opacity: 0.3;
+}
+
+.Contact_field {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-color: #A2B6B5;
+  border-radius: 1em;
+  width: 60vw;
+  height: 50vh;
+  height: auto;
+  align-self: center;
+}
+
+.Contact_text {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  font-size: 25pt;
+  align-self: center;
+  color: #484a20;
+}
+
+#email {
+  width: 20vw;
+  height: 5vh;
+  margin-bottom: 3%;
 }
 
 .Footer_block {
   left: 0;
+  right:0;
   bottom: 0;
   width: 100%;
+  height: 100%;
   background-color: #2E3034;
   color: white;
 }
@@ -116,6 +169,26 @@ a:active {
   font-family: 'Inter', sans-serif;
 }
 
+.Field_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.Field_text_Minsk {
+  font-family: 'Inter', sans-serif;
+  font-size: 15pt;
+  margin-left: 10%;
+  color: #343613;
+  margin-top: 10%;
+}
+
+.Field_text_Spb {
+  font-family: 'Inter', sans-serif;
+  font-size: 15pt;
+  margin-left: 10%;
+  color: #343613;
+}
+
 .Gallery_button {
   display: flex;
   align-self: center;
@@ -125,10 +198,15 @@ a:active {
   background-color: white;
   color: black;
   border: 2px solid #484a20; 
-  margin-top: 5%;
+  margin-bottom: 2%;
 }
 
 .Gallery_button:hover {
+  background-color: #797c3d;
+  color: white;
+}
+
+.Gallery_button2:hover {
   background-color: #797c3d;
   color: white;
 }
@@ -148,6 +226,34 @@ a:active {
 .item6 {
   grid-column: 2/3;
   grid-row: 2/3;
+}
+
+.Img_with_text.item7 .item8 .item9 {
+  display: grid;
+  margin-top: 35%;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.Input_field {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #484a20;
 }
 
 #Item1 {
@@ -207,7 +313,7 @@ a:active {
   flex-direction: row;
   float: right;
   width: auto;
-  height: 50vh;
+  height: 90vh;
   background-color: #A2B6B5;
 }
 
@@ -267,12 +373,59 @@ a:active {
   flex-direction: row;
 }
 
+.Menu_page2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #E7E8E3;
+  height: 150vh;
+}
+
+.Menu_page3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #E7E8E3;
+  height: 100vh;
+}
+
+#Medicine_text {
+  margin-top: 50%;
+}
+
+#message {
+  width: 20vw;
+  height: 15vh;
+  margin-bottom: 3%;
+}
+
+#name {
+  width: 20vw;
+  height: 5vh;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
 .Page {
   display: flex;
   flex-direction: column;
   width: auto;
   background-color:#E7E8E3;
+  height: 200%;
+}
+
+.Second_page {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  background-color:#E7E8E3;
   height: 100%;
+}
+
+.Second_text {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-size: 2vw;
+  color: #484a20;
+  justify-content: center;
 }
 
 .Slider_About {

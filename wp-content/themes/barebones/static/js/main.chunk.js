@@ -27,7 +27,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _AsideMenu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AsideMenu */ "./src/AsideMenu.js");
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./src/Footer.js");
 /* harmony import */ var _Homepage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Homepage */ "./src/Homepage.js");
+/* harmony import */ var _SecondPage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./SecondPage */ "./src/SecondPage.js");
+/* harmony import */ var _ThirdPage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ThirdPage */ "./src/ThirdPage.js");
 var _jsxFileName = "C:\\OpenServer\\domains\\site\\wp-content\\themes\\barebones\\react-src\\src\\App.js";
+
+
 
 
 
@@ -40,38 +44,72 @@ function App() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 14,
       columnNumber: 9
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, title === "Homepage" && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Menu_Homepage",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 13
+      lineNumber: 15,
+      columnNumber: 38
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AsideMenu__WEBPACK_IMPORTED_MODULE_2__["default"], {
     setTitle: setTitle,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 17
+      lineNumber: 15,
+      columnNumber: 69
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Homepage__WEBPACK_IMPORTED_MODULE_4__["default"], {
     title: title,
+    setTitle: setTitle,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
-      columnNumber: 17
+      columnNumber: 103
+    }
+  })), title === "page2" && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Menu_page2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 35
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SecondPage__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    title: title,
+    setTitle: setTitle,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 63
+    }
+  })), title === "page3" && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 35
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ThirdPage__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    title: title,
+    setTitle: setTitle,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 40
     }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 18,
       columnNumber: 13
     }
   }));
@@ -536,6 +574,17 @@ module.exports = __webpack_require__.p + "static/media/Avia.ee0a6a81.png";
 
 /***/ }),
 
+/***/ "./src/Gallery/Medicine.png":
+/*!**********************************!*\
+  !*** ./src/Gallery/Medicine.png ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Medicine.ee255460.png";
+
+/***/ }),
+
 /***/ "./src/Gallery/Ships.png":
 /*!*******************************!*\
   !*** ./src/Gallery/Ships.png ***!
@@ -547,6 +596,17 @@ module.exports = __webpack_require__.p + "static/media/Ships.72d2d5e8.png";
 
 /***/ }),
 
+/***/ "./src/Gallery/Souvenirs.png":
+/*!***********************************!*\
+  !*** ./src/Gallery/Souvenirs.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Souvenirs.377c1d05.png";
+
+/***/ }),
+
 /***/ "./src/Gallery/Transport.png":
 /*!***********************************!*\
   !*** ./src/Gallery/Transport.png ***!
@@ -555,6 +615,17 @@ module.exports = __webpack_require__.p + "static/media/Ships.72d2d5e8.png";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/media/Transport.5160b0b4.png";
+
+/***/ }),
+
+/***/ "./src/Gallery/Weapon.png":
+/*!********************************!*\
+  !*** ./src/Gallery/Weapon.png ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Weapon.9b0dda96.png";
 
 /***/ }),
 
@@ -686,14 +757,14 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 9,
       columnNumber: 12
     }
-  }, "console.log(", props.title, ");", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 10,
       columnNumber: 17
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -701,7 +772,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 11,
       columnNumber: 17
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -709,14 +780,14 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 12,
       columnNumber: 21
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Slider_Slider__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 13,
       columnNumber: 25
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -724,7 +795,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 14,
       columnNumber: 25
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
@@ -732,14 +803,14 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 15,
       columnNumber: 29
     }
   }, "\u041E \u043D\u0430\u0441"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 29
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
@@ -747,91 +818,91 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 32
     }
   }, "\u0422\u0435\u0445\u043D\u043E\u043C\u0430\u043A\u0435\u0442"), " - \u043C\u0430\u043A\u0435\u0442\u043D\u0430\u044F \u043C\u0430\u0441\u0442\u0435\u0440\u0441\u043A\u0430\u044F, \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u0442 \u0432\u044B\u0441\u043E\u043A\u043E\u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0435 \u043C\u0430\u0441\u0448\u0442\u0430\u0431\u043D\u044B\u0435 \u043C\u043E\u0434\u0435\u043B\u0438 \u0438 3d \u043A\u043E\u043F\u0438\u0438 \u0442\u0435\u0445\u043D\u0438\u043A\u0438, \u043C\u0430\u043A\u0435\u0442\u044B \u0434\u043B\u044F \u0432\u044B\u0441\u0442\u0430\u0432\u043E\u043A \u0438 \u043F\u0440\u0435\u0437\u0435\u043D\u0442\u0430\u0446\u0438\u0439.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 203
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 208
     }
   }, "\u0423\u0436\u0435 \u0431\u043E\u043B\u0435\u0435 10 \u043B\u0435\u0442 \u043C\u044B \u0432\u044B\u043F\u043E\u043B\u043D\u044F\u0435\u043C \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0437\u0430\u043A\u0430\u0437\u044B \u043D\u0430\u0448\u0438\u0445 \u041A\u043B\u0438\u0435\u043D\u0442\u043E\u0432, \u0447\u0442\u043E \u0441\u0434\u0435\u043B\u0430\u043B\u043E \u043D\u0430\u0441 \u0434\u043E\u0432\u0435\u0440\u0435\u043D\u043D\u044B\u043C\u0438 \u043F\u0430\u0440\u0442\u043D\u0435\u0440\u0430\u043C\u0438 \u0434\u043B\u044F \u043C\u043D\u043E\u0433\u0438\u0445 \u0435\u0432\u0440\u043E\u043F\u0435\u0439\u0441\u043A\u0438\u0445 \u0437\u0430\u043A\u0430\u0437\u0447\u0438\u043A\u043E\u0432."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 356
     }
   }, "\u041C\u044B \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u043C \u0434\u043B\u044F:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 379
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 383
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 387
     }
   }, "\u043C\u0443\u0437\u0435\u0435\u0432,")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 412
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 416
     }
   }, "\u0432\u044B\u0441\u0442\u0430\u0432\u043E\u043A \u0438 \u043F\u0440\u0435\u0437\u0435\u043D\u0442\u0430\u0446\u0438\u0439,")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 457
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 461
     }
   }, "\u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u0435\u0439 \u0441\u043B\u043E\u0436\u043D\u043E\u0439 \u0442\u0435\u0445\u043D\u0438\u043A\u0438,")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 510
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 16,
       columnNumber: 514
     }
   }, "\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0445 \u0446\u0435\u043D\u0442\u0440\u043E\u0432.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -839,7 +910,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 19,
       columnNumber: 21
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -847,7 +918,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 19,
       columnNumber: 44
     }
   }, "\u041C\u044B \u0434\u0435\u043B\u0430\u0435\u043C: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -855,7 +926,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 19,
       columnNumber: 81
     }
   }, "\u0430\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u043D\u044B\u0435 \u043C\u0430\u043A\u0435\u0442\u044B, "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -863,7 +934,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 19,
       columnNumber: 139
     }
   }, "\u043C\u0430\u0441\u0448\u0442\u0430\u0431\u043D\u044B\u0435 \u043C\u0430\u043A\u0435\u0442\u044B \u0438 \u043C\u043E\u0434\u0435\u043B\u0438 \u0442\u0435\u0445\u043D\u0438\u043A\u0438 (\u0432\u043A\u043B\u044E\u0447\u0430\u044F \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044E\u0449\u0438\u0435 \u043C\u0430\u043A\u0435\u0442\u044B),"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -871,7 +942,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 19,
       columnNumber: 239
     }
   }, "\u043C\u0430\u043A\u0435\u0442\u044B \u043A\u043E\u0440\u0430\u0431\u043B\u0435\u0439,"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -879,7 +950,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 19,
       columnNumber: 291
     }
   }, " \u0434\u0438\u043E\u0440\u0430\u043C\u044B,"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -887,7 +958,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 19,
       columnNumber: 336
     }
   }, "\u0440\u0435\u043F\u043B\u0438\u043A\u0438 \u043E\u0440\u0443\u0436\u0438\u044F"), " \u0438 \u043C\u043D\u043E\u0433\u043E\u0435 \u0434\u0440\u0443\u0433\u043E\u0435..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -895,7 +966,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 19,
       columnNumber: 408
     }
   }, "\u0422\u0430\u043A\u0436\u0435 \u043C\u044B \u043C\u043E\u0436\u0435\u043C \u0438\u0437\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -903,7 +974,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 19,
       columnNumber: 461
     }
   }, "\u043F\u0440\u0435\u0437\u0435\u043D\u0442\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0435 \u043F\u043E\u0434\u0441\u0442\u0430\u0432\u043A\u0438 \u0438 \u043A\u043E\u043B\u043F\u0430\u043A\u0438,"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -911,7 +982,7 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 19,
       columnNumber: 533
     }
   }, "\u0442\u0440\u0430\u043D\u0441\u043F\u043E\u0440\u0442\u043D\u044B\u0435 \u043A\u043E\u0440\u043E\u0431\u0430 \u0438 \u043A\u043E\u0444\u0440\u044B."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -919,29 +990,198 @@ function Homepage(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 20,
       columnNumber: 21
     }
-  }, "\u0413\u0430\u043B\u0435\u0440\u0435\u044F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Gallery__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, "\u0413\u0430\u043B\u0435\u0440\u0435\u044F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: "button",
+    className: "Gallery_button",
+    onClick: () => props.setTitle("page2"),
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 21
+    }
+  }, "\u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u0432 \u0433\u0430\u043B\u0435\u0440\u0435\u044E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Gallery__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 21
+    }
+  })));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Homepage);
+
+/***/ }),
+
+/***/ "./src/SecondPage.js":
+/*!***************************!*\
+  !*** ./src/SecondPage.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Gallery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Gallery */ "./src/Gallery.js");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Gallery_Weapon_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Gallery/Weapon.png */ "./src/Gallery/Weapon.png");
+/* harmony import */ var _Gallery_Weapon_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Gallery_Weapon_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Gallery_Medicine_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Gallery/Medicine.png */ "./src/Gallery/Medicine.png");
+/* harmony import */ var _Gallery_Medicine_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Gallery_Medicine_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Gallery_Souvenirs_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Gallery/Souvenirs.png */ "./src/Gallery/Souvenirs.png");
+/* harmony import */ var _Gallery_Souvenirs_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Gallery_Souvenirs_png__WEBPACK_IMPORTED_MODULE_5__);
+var _jsxFileName = "C:\\OpenServer\\domains\\site\\wp-content\\themes\\barebones\\react-src\\src\\SecondPage.js";
+
+
+
+
+
+
+
+function SecondPage(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Second_page",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Button_text",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "Second_text",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 13
+    }
+  }, "\u041C\u0430\u0441\u0448\u0442\u0430\u0431\u043D\u044B\u0435 \u043C\u0430\u043A\u0435\u0442\u044B \u0438 \u043C\u043E\u0434\u0435\u043B\u0438"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: "button",
+    className: "Gallery_button",
+    onClick: () => props.setTitle("Homepage"),
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 13
+    }
+  }, "\u041D\u0430 \u0433\u043B\u0430\u0432\u043D\u0443\u044E")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Gallery__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 9
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Catalog_block2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Img_with_text",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _Gallery_Weapon_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+    className: "Catalog_item item7",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "Img_descr",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 17
+    }
+  }, "\u0420\u0435\u043F\u043B\u0438\u043A\u0438 \u043E\u0440\u0443\u0436\u0438\u044F")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Img_with_text",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _Gallery_Medicine_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    className: "Catalog_item item8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "Img_descr",
+    id: "Medicine_text",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
-      columnNumber: 21
+      columnNumber: 17
     }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    type: "button",
-    className: "Gallery_button",
+  }, "\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u043E\u0435 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 21
+      lineNumber: 24,
+      columnNumber: 75
     }
-  }, "\u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u0432 \u0433\u0430\u043B\u0435\u0440\u0435\u044E")));
+  }), "\u043E\u0431\u043E\u0440\u0443\u0434\u043E\u0432\u0430\u043D\u0438\u0435")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Img_with_text",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _Gallery_Souvenirs_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+    className: "Catalog_item item9",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "Img_descr",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 17
+    }
+  }, "\u0421\u0443\u0432\u0435\u043D\u0438\u0440\u044B"))));
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Homepage);
+/* harmony default export */ __webpack_exports__["default"] = (SecondPage);
 
 /***/ }),
 
@@ -1350,6 +1590,210 @@ module.exports = __webpack_require__.p + "static/media/image9.d6476771.png";
 
 /***/ }),
 
+/***/ "./src/ThirdPage.js":
+/*!**************************!*\
+  !*** ./src/ThirdPage.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\OpenServer\\domains\\site\\wp-content\\themes\\barebones\\react-src\\src\\ThirdPage.js";
+
+
+
+function ThirdPage(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Menu_page3",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 12
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "Contact_text",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }, "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: "button",
+    className: "Gallery_button",
+    onClick: () => props.setTitle("Homepage"),
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 9
+    }
+  }, "\u041D\u0430 \u0433\u043B\u0430\u0432\u043D\u0443\u044E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Contact_field",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Field_text",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "Field_text_Minsk",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 49
+    }
+  }, "\u041E\u0444\u0438\u0441 \u0432 \u041C\u0438\u043D\u0441\u043A\u0435:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 70
+    }
+  }), "\u041C\u0438\u043D\u0441\u043A, \u0411\u0435\u043B\u0430\u0440\u0443\u0441\u044C", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 90
+    }
+  }), "\u0443\u043B. \u041A\u043D\u043E\u0440\u0438\u043D\u0430, 55, \u043E\u0444. 50", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 118
+    }
+  }), "\u0442: +375 29 685-2515", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 142
+    }
+  }), "al-r2006@yandex.ru"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "Field_text_Spb",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 47
+    }
+  }, "\u041E\u0444\u0438\u0441 \u0432 \u0421\u0430\u043D\u043A\u0442-\u041F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0435:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 78
+    }
+  }), "\u0421\u0430\u043D\u043A\u0442-\u041F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0420\u0424", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 102
+    }
+  }), "\u0443\u043B. \u041F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440\u0430 \u041F\u043E\u043F\u043E\u0432\u0430 \u0434.38", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 133
+    }
+  }), "\u0442: \u200E+7 812 336-5024")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Input_field",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 21
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "name",
+    name: "firstname",
+    placeholder: "\u0418\u043C\u044F *",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 25
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "email",
+    name: "email",
+    placeholder: "Email *",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 25
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "message",
+    name: "message",
+    placeholder: "\u0421\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 25
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "submit",
+    id: "Button_submit",
+    value: "Submit",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 25
+    }
+  })))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ThirdPage);
+
+/***/ }),
+
 /***/ "./src/index.css":
 /*!***********************!*\
   !*** ./src/index.css ***!
@@ -1532,5 +1976,5 @@ module.exports = __webpack_require__(/*! C:\OpenServer\domains\site\wp-content\t
 
 /***/ })
 
-},[[0,"runtime-main",1]]]);
+},[[0,"runtime-main",0]]]);
 //# sourceMappingURL=main.chunk.js.map
