@@ -16,10 +16,14 @@ function ThirdPage(props) {
                         <input type="text" id = "name" name="firstname" placeholder="Имя *"></input>
                         <input type="text" id = "email" name="email" placeholder="Email *"></input>
                         <input type="text" id = "message" name="message" placeholder="Сообщение"></input>
-                        <input type="submit" id = "Button_submit" value="Submit"></input>
+                        <input type="submit" id = "Button_submit" value="Отправить"></input>
                     </div>
                 </form>
-        </div>
+            </div>
+            <div className="Map">
+            <iframe src="https://maps.google.com/maps?q=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA,%20%D1%83%D0%BB.%20%D0%9A%D0%BD%D0%BE%D1%80%D0%B8%D0%BD%D0%B0,%2055,%20%D0%BE%D1%84%D0%B8%D1%81%2050&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id = "First_Map" scrolling="no" frameborder="0"></iframe>   
+            <iframe src="https://maps.google.com/maps?q=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%20%D1%83%D0%BB.%20%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%B0%20%D0%9F%D0%BE%D0%BF%D0%BE%D0%B2%D0%B0%20%D0%B4.38&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id = "Second_Map" scrolling="no"  frameborder="0"></iframe>
+            </div>
     </div>
 }
 

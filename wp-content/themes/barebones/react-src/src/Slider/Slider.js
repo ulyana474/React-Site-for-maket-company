@@ -21,21 +21,21 @@ function Slider() {
     return (
         <div className="Carousel">
             <AliceCarousel autoPlay autoPlayInterval="5000">
-                <img src = {image1} className = "Slider_image" alt = ""/>
-                <img src = {image2} className = "Slider_image" alt = ""/>
-                <img src = {image3} className = "Slider_image" alt = ""/>
-                <img src = {image4} className = "Slider_image" alt = ""/>
-                <img src = {image5} className = "Slider_image" alt = ""/>
-                <img src = {image6} className = "Slider_image" alt = ""/>
-                <img src = {image7} className = "Slider_image" alt = ""/>
-                <img src = {image8} className = "Slider_image" alt = ""/>
-                <img src = {image9} className = "Slider_image" alt = ""/>
-                <img src = {image10} className = "Slider_image" alt = ""/>
-                <img src = {image11} className = "Slider_image" alt = ""/>
-                <img src = {image12} className = "Slider_image" alt = ""/>
-                <img src = {image13} className = "Slider_image" alt = ""/>
-                <img src = {image14} className = "Slider_image" alt = ""/>
-                <img src = {image15} className = "Slider_image" alt = ""/>
+                <img src = {image1}  alt = ""/>
+                <img src = {image2}  alt = ""/>
+                <img src = {image3}  alt = ""/>
+                <img src = {image4}  alt = ""/>
+                <img src = {image5}  alt = ""/>
+                <img src = {image6}  alt = ""/>
+                <img src = {image7}  alt = ""/>
+                <img src = {image8}  alt = ""/>
+                <img src = {image9}  alt = ""/>
+                <img src = {image10} alt = ""/>
+                <img src = {image11} alt = ""/>
+                <img src = {image12} alt = ""/>
+                <img src = {image13} alt = ""/>
+                <img src = {image14} alt = ""/>
+                <img src = {image15} alt = ""/>
             </AliceCarousel>
         </div>
     )

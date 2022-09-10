@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import Gallery from "./Gallery";
 import "./App.css";
 import Weapon from "./Gallery/Weapon.png"
@@ -13,7 +13,7 @@ function SecondPage(props) {
             <p className="Second_text">Масштабные макеты и модели</p>
             <button type="button" className="Gallery_button" onClick={() => props.setTitle("Homepage")}>На главную</button>
         </div>
-        <Gallery />
+        <Gallery title = {props.title}/>
         <div className="Catalog_block2">
             <div className="Img_with_text"> 
                 <img src = {Weapon} className="Catalog_item item7" />

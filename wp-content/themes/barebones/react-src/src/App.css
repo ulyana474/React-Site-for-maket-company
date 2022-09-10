@@ -10,6 +10,10 @@ a:active {
   color: #E7E8E3;
 }
 
+.alice-carousel ul li img{
+  height: 400px;
+}
+
 .About_us {
   font-family: 'Inter', sans-serif;
   width: 40vw;
@@ -39,28 +43,76 @@ a:active {
   color: #E7E8E3;
 }
 
+.Basic_buttons {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-self: center;
+}
+
+.Basic_mainText {
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  text-align: justify;
+  font-size: 1.3vw;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.Basic_Page {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  background-color:#E7E8E3;
+  height: 200%;
+}
+
+.Basic_title2 {
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  text-align: justify;
+  font-size: 1.5vw;
+  margin-left: 3%;
+}
+
 .Button_text {
   display: flex;
   flex-direction: column;
+  white-space: nowrap;
 }
 
 #Button_submit {
-  width: 10vw;
+  background: none;
+  border: 4px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  margin: 10px auto;
+  padding: 1em 2em;
+  position: relative;
+  text-transform: uppercase;
+  margin-left: 2%;
+}
+
+#Button_submit:hover {
+  color: #484a20;
+  border: 4px solid #484a20;
 }
 
 .Catalog {
   font-family: 'Inter', sans-serif;
   display: flex;
   justify-content: center;
-  font-size: 2vw;
+  font-size: 2.3vw;
   color: #484a20;
-  text-align: center;
   margin-bottom: 2%;
+  margin-left: 1%;
 }
 
 .Carousel {
-  width: 486px;
-  height: 410px;
+  width: 470px;
+  height: 400px;
   margin-top: 5%;
   margin-left: 5%;
   margin-bottom: 10%;
@@ -189,16 +241,26 @@ a:active {
   color: #343613;
 }
 
+#First_Map {
+  width: 300px;
+  height: 300px;
+}
+
 .Gallery_button {
-  display: flex;
+  display: inline-block;
   align-self: center;
-  padding: 0.5%;   
+  text-align: center;
+  white-space: nowrap;
+  padding: 1em;   
   width: auto;
-  height: 5vh;
+  height: auto;
   background-color: white;
   color: black;
   border: 2px solid #484a20; 
   margin-bottom: 2%;
+  margin-left: 2%;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .Gallery_button:hover {
@@ -209,6 +271,23 @@ a:active {
 .Gallery_button2:hover {
   background-color: #797c3d;
   color: white;
+}
+
+.Gallery_title {
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  justify-content: center;
+  white-space: nowrap;
+  font-size: 2vw;
+  margin-top: 5%;
+  color: #484a20;
+  text-transform: uppercase;
+}
+
+
+.Gallery_text {
+  display: flex;
+  flex-direction: column;
 }
 
 .item3 {
@@ -308,6 +387,14 @@ input[type=text]:focus {
   opacity: 1;
 }
 
+.Polonez_link {
+  color: #484a20;
+}
+
+.Polonez_link:hover {
+  text-decoration: underline;
+}
+
 .Header {
   display: flex;
   flex-direction: row;
@@ -368,6 +455,12 @@ input[type=text]:focus {
   margin-top: 7%;
 }
 
+.Map {
+  display: flex;
+  align-self: center;
+  margin-top: 5%;
+}
+
 .Menu_Homepage {
   display: flex;
   flex-direction: row;
@@ -384,7 +477,7 @@ input[type=text]:focus {
   display: flex;
   flex-direction: column;
   background-color: #E7E8E3;
-  height: 100vh;
+  height: 150vh;
 }
 
 #Medicine_text {
@@ -428,9 +521,44 @@ input[type=text]:focus {
   justify-content: center;
 }
 
+#Second_Map {
+  width: 300px;
+  height: 300px;
+  margin-left: 5%;
+}
+
 .Slider_About {
   display: flex;
   flex-direction: row;
+}
+
+.Slider_imageArch {
+  height: auto;
+  width: 572px;
+  margin-left: 5%;
+  border: 0.25em solid #747833;
+}
+
+.Slider_imageShips {
+  height: auto;
+  width: 572px;
+  margin-left: 5%;
+  border: 0.25em solid #747833;
+  margin-top: 5%;
+}
+
+.Ships_title2 {
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  text-align: right;
+  font-size: 1.5vw;
+}
+
+.Ships_mainText {
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  text-align: right;
+  font-size: 1.3vw;
 }
 
 .Tel {
